@@ -45,7 +45,7 @@ a.links:visited
 {
     text-align: center;
     margin-top: 20px;
-    border: 1px solid rgba(255, 157, 11, 0.589);
+    border: 1px solid rgb(223, 48, 77);
     border-width: 2px;
     display: block;
     width: 500px;
@@ -55,18 +55,18 @@ a.links:visited
     margin-right: auto;
     border-radius: 50px;
     font-size: 23px;
-    background-color: #101820FF;
+    background-color: rgb(40, 60, 80);
 }
 a.urls
 {
     text-decoration: none;
-    color: #F2AA4CFF;
+    color: rgb(178, 255, 34);
     transition: color;
 }
 a.urls:hover
 {
     color: #101820FF;
-    background-color: #FEE715FF;
+    background-color: rgb(201, 188, 77);
 }
 
 /*============================================================
