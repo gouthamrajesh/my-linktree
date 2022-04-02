@@ -2,7 +2,7 @@ body
 {
     background-image: url(./img/gif/bg6.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% ;
     letter-spacing: 1px;
 }
 .profile-pic
@@ -27,10 +27,10 @@ body
 {
     text-align: center;
     margin-top: -20px;
-    font-size: 18px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(235, 205, 159);
+    color: rgb(0, 0, 0);
 }
 a.links
 {
