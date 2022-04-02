@@ -1,6 +1,6 @@
 body
 {
-    background-image: url(./img/gif/bg4.webp);
+    background-image: url(./img/gif/bg6.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     letter-spacing: 1px;
@@ -30,12 +30,12 @@ body
     font-size: 18px;
     color: rgb(0, 0, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: rgb(235, 205, 159);
 }
 a.links
 {
     text-decoration: none;
-    color: rgb(158, 129, 129);
+    color: rgb(51, 252, 68);
 }
 a.links:visited
 {
@@ -53,14 +53,14 @@ a.links:visited
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50px;
+    border-radius: 20px;
     font-size: 23px;
-    background-color: rgb(40, 60, 80);
+    background-color: rgba(20, 21, 21, 0.496);
 }
 a.urls
 {
     text-decoration: none;
-    color: rgb(178, 255, 34);
+    color: rgb(255, 255, 255);
     transition: color;
 }
 a.urls:hover
@@ -77,6 +77,10 @@ a.urls:hover
     {
         width:90%;
     }
+    body
+    {
+        background-size: cover;
+    }
 }
   
 /*============================================================
@@ -87,6 +91,10 @@ a.urls:hover
     {
         width:90%;
     }
+    body
+    {
+        background-size: cover;
+    }
 }
 /*============================================================
       Mobile (Portrait) Design for a width of 320px
@@ -96,6 +104,10 @@ a.urls:hover
     {
         width:90%;
     }
+    body
+    {
+        background-size: cover;
+    }
   }
 /*============================================================
       Mobile (Landscape) Design for a width of 480px
@@ -104,5 +116,9 @@ a.urls:hover
     .urls
     {
         width:90%;
+    }
+    body
+    {
+        background-size: cover;
     }
 }
